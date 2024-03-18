@@ -24,6 +24,7 @@
                 importedLines.Add(line);
             }
 
+            //uzupełnianie obiektu warttośćiami
             for (int i = 0; i < importedLines.Count; i++) // zniana z <= na < aby uniknąć 'IndexOutOfRangeException'
             {
                 var importedLine = importedLines[i];
